@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap"
-import { ArrowRightCircle } from "react-bootstrap-icons"
+import { ArrowRightCircle, Balloon, CaretRightFill, ChevronDoubleRight, EmojiSmile, FastForward } from "react-bootstrap-icons"
 import headerImg from "../assets/img/header-img.svg";
 // import 'animate.css';
 // import TrackVisibility from 'react-on-screen';
@@ -53,8 +53,8 @@ export const Banner = () => {
                 <Row className="aligh-items-center">
                     <Col xs={5} md={10} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi, I'm Hardik "}</h1>
-                        <h2>{'(^ ^) '}<span className="wrap">{text}</span>{' '}</h2>
+                        <h1>{"Hi, I'm Hardik!"}</h1>
+                        <h3><FastForward size={25} />{' '}<span className="wrap">{text}</span>{' '}</h3>
                         <p>My name is Hardik Bhawsar. I am passionate about web development, LLM, machine learning, IOS app development and data structure. </p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
