@@ -11,8 +11,8 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
-    const period = 2000;
+    const toRotate = [ "Web Developer", "Full Stack Developer", "IOS App Developer" ];
+    const period = 1000;
   
     useEffect(() => {
       let ticker = setInterval(() => {
@@ -41,7 +41,7 @@ export const Banner = () => {
         setIsDeleting(false);
         setLoopNum(loopNum + 1);
         setIndex(1);
-        setDelta(500);
+        setDelta(200);
       } else {
         setIndex(prevIndex => prevIndex + 1);
       }
@@ -70,13 +70,14 @@ export const Banner = () => {
         <section className="banner" id="home">
           <Container>
             <Row className="aligh-items-center">
-              <Col xs={12} md={6} xl={7}>
+              <Col xs={5} md={10} xl={7}>
               <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{"Hi I'm Hardik "}<span className="wrap">{text}</span></h1>
+                <h1>{"Hi, I'm Hardik "}</h1>
+                <h2>{'(^ ^) '}<span className="wrap">{text}</span>{' '}</h2>
                 <p>My name is Hardik Bhawsar. I am passionate about web development, LLM, machine learning, IOS app development and data structure. </p>
                 <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
               </Col>
-              <Col xs={12} md={6} xl={5}>
+              <Col xs={5} md={6} xl={5}>
                       <img src={headerImg} alt="Header Img"/>
               </Col>
             </Row>
