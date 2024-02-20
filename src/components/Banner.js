@@ -11,7 +11,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Full Stack Developer", "IOS App Developer"];
+    const toRotate = ["Web Developer", "Full Stack Developer", "IOS App Developer", "Back-End Developer"];
     const period = 1000;
 
     useEffect(() => {
@@ -59,7 +59,7 @@ export const Banner = () => {
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={5} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" />
+                        <img className="backimg" src={headerImg} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>
