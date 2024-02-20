@@ -1,8 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/twitter.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/doctor.png";
+import projImg2 from "../assets/img/twitter1.png";
+import projImg3 from "../assets/img/movie.png";
+import projImg4 from "../assets/img/alignment.png";
+import projImg5 from "../assets/img/flask.png";
+import projImg6 from "../assets/img/traffic.png";
+import projImg7 from "../assets/img/digit.png";
+import projImg8 from "../assets/img/globalAlignment.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,35 +16,52 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Doctor Appointment Booking System",
+      description: "A appointment booking system developed using Spring Boot, Java, JavaScript and HTML.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: " Twitter Sentiment Analysis",
+      description: "Live sentiment data analysis on twitter data using pyspark and tweepy.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Movie Recommendation System",
+      description: "A movie recommendation system using Prolog and Python.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Edit Distance Algorithm",
+      description: "A bioinformatics algorithm named as Edit distance implemented in C++",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Flask RESTful API",
+      description: "A RESTful API is built using Flask and Python.",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Smart Traffic Control System",
+      description: "A traffic control system implemented on live video input using Neural Netword and YOLOv5 algorithm.",
+      imgUrl: projImg6,
     },
+    {
+      title: "Digit Recognizer",
+      description: "A mouse drawn live digit recognizer implemented using Python, Convolutional Neural Network and  OpenCV.",
+      imgUrl: projImg7,
+    },
+    {
+      title: "Edit Distance Algorithm",
+      description: "A bioinformatics algorithm named as Edit distance implemented in Python",
+      imgUrl: projImg4,
+    },
+    {
+      title: "Global Alignment Algorithm",
+      description: "A survey paper on bioinformatics algorithm named as Global Alignment.",
+      imgUrl: projImg8,
+    },
+
+    
   ];
 
   return (
