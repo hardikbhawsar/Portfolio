@@ -59,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                          <h1>{"Hi, I'm Hardik!"}</h1>
                          <h3><FastForward size={25} />{' '}<span className="wrap">{text}</span>{' '}</h3>
-                         <p>I am a skilled and passionate full stack and backend developer with experience in creating visually appealing and user-friendly web applications.</p>
+                         <p>I am a skilled and passionate full stack developer with experience in creating visually appealing and user-friendly web applications using Angular and Spring Boot. I have experience in developing fast and optimised backend systems and APIs.</p>
                          
                             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
                          
