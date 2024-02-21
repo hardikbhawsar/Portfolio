@@ -466,6 +466,144 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.education {
+  padding: 40px;
+  background-color: #121212;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.education-item {
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.education-institution {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.education-degree {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.education-logo {
+  width: 100px; 
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.education-duration {
+  font-size: 18px;
+  font-weight: 400;
+  color: #B8B8B8;
+  margin-bottom: 20px;
+}
+
+/************ Experience Css ************/
+.experience {
+  padding: 40px;
+  background-color: #121212;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-heading {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+
+.experience-logo {
+  width: 100px; 
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-logo img,
+.experience-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.experience-item {
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.experience-title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.experience-company {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.experience-dates {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  color: #B8B8B8;
+  margin-bottom: 20px;
+}
+
+.experience-detail {
+  font-size: 18px;
+  font-weight: 400;
+  color: #B8B8B8;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.experience-logo {
+  width: 100px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 20px; 
+}
+
+
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

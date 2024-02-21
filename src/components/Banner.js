@@ -12,8 +12,12 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "FUll Stack Developer", "Backend Developer", "Software Developer" ];
+  const toRotate = [ "Full Stack Developer", "Backend Developer", "Software Developer" ];
   const period = 1000;
+  
+  const handleClick = () => {
+    window.open('https://drive.google.com/file/d/1IYxzt9sV_-LMnVENJajctSwoTASGsOaK/view?usp=drive_link', '_blank');
+  }
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -61,7 +65,7 @@ export const Banner = () => {
                          <h3><FastForward size={25} />{' '}<span className="wrap">{text}</span>{' '}</h3>
                          <p>I am a skilled and passionate full stack developer with experience in creating visually appealing and user-friendly web applications using Angular and Spring Boot. I have experience in developing fast and optimised backend systems and APIs.</p>
                          
-                            <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
+                            <button onClick={()=>handleClick()}>Resume<ArrowRightCircle size={25} /></button>
                          
               </div>}
             </TrackVisibility>
@@ -79,21 +83,3 @@ export const Banner = () => {
     </section>
   )
 }
-    // return (
-    //     <section className="banner" id="home">
-    //         <Container>
-    //             <Row className="aligh-items-center">
-    //                 <Col xs={5} md={10} xl={7}>
-    //                     <span className="tagline">Welcome to my Portfolio</span>
-    //                     <h1>{"Hi, I'm Hardik!"}</h1>
-    //                     <h3><FastForward size={25} />{' '}<span className="wrap">{text}</span>{' '}</h3>
-    //                     <p>My name is Hardik Bhawsar. I am passionate about web development, LLM, machine learning, IOS app development and data structure. </p>
-    //                     <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
-    //                 </Col>
-    //                 <Col xs={5} md={6} xl={5}>
-    //                     <img className="backimg" src={headerImg} alt="Header Img" />
-    //                 </Col>
-    //             </Row>
-    //         </Container>
-    //     </section>
-    // )
