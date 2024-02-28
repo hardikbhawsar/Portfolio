@@ -4,7 +4,7 @@ import companyLogo1 from '../assets/img/Persistent_Logo_Vertical_Orange_Silver.p
 import companyLogo2 from '../assets/img/IIT_white.png'
 export const Experience = () => {
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <Container>
         <h2 className="experience-heading">Experience</h2>
         <Row>
@@ -23,7 +23,7 @@ experience, resulting in a 15% decrease in bounce rate.Utilized responsive desig
             </div>
           </Col>
           <Col md={6}>
-            <div className="experience-item">
+            <div className="experience-item1">
               <img className="experience-logo" src={companyLogo2} alt="Company Logo" />
               <h3 className="experience-title">Summer Intern</h3>
               <p className="experience-company">Indian Institute of Technology, Mandi</p>

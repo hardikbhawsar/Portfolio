@@ -5,7 +5,7 @@ import universityLogo2 from '../assets/img/California_State_University,_Fullerto
 
 const Education = () => {
   return (
-    <section className="experience">
+    <section className="experience" id="education">
       <Container>
         <h2 className="experience-heading">Education</h2>
         <Row>
