@@ -41,15 +41,39 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Spring Boot</h5>
+                                <h5>Spring Framework</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>Artificial Intelligence</h5>
                             </div>
                             <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Flask</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>C++</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Docker</h5>
+                            </div>
+                            <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Algorithms</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Maven & Gradel</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
