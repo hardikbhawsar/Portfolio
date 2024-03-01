@@ -10,6 +10,7 @@ export const Contact = () => {
     user_email: '',
     message: ''
   };
+  
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
@@ -46,6 +47,16 @@ export const Contact = () => {
     }
   };
 
+  const handleMouseEnter = (e) => {
+    e.target.style.backgroundColor = '#000';
+    e.target.style.color = '#fff';
+  };
+
+  const handleMouseLeave = (e) => {
+    e.target.style.backgroundColor = '#fff';
+    e.target.style.color = '#000';
+  };
+
   return (
     <section className="contact" id="connect">
       <Container>
@@ -69,14 +80,13 @@ export const Contact = () => {
                     <textarea name="message" rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                     <button type="submit">{buttonText}</button>
                   </Col>
-                </Row>
-                {status.message && (
-                  <Row>
-                    <Col xs={12} sm={12}>
-                      <p className={status.success ? "success" : "danger"}>{status.message}</p>
+                  {/* Status Message */}
+                  {status.message && (
+                    <Col xs={12} className="px-1">
+                      <p className={`status-message ${status.success ? "success" : "error"}`}>{status.message}</p>
                     </Col>
-                  </Row>
-                )}
+                  )}
+                </Row>
               </form>
             </div>
           </Col>

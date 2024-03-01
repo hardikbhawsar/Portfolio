@@ -608,22 +608,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 20px; 
 }
 
-
-
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 60px 0;
+  padding: 60px 0;
 }
+
 .contact img {
   width: 92%;
 }
+
 .contact h2 {
-	font-size: 45px;
-	font-weight: 700;
+  font-size: 45px;
+  font-weight: 700;
   margin-bottom: 30px;
+  color: #fff; 
 }
-.contact form input, .contact form textarea {
+
+.contact h4 {
+  color: #fff; 
+}
+
+.contact form input,
+.contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -636,50 +643,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
-.contact form input:focus, .contact form textarea:focus {
+
+.contact form input:focus,
+.contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
 }
-.contact form input::placeholder, .contact form textarea::placeholder {
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
 }
-.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+
+.contact form input:focus::placeholder,
+.contact form textarea:focus::placeholder {
   color: #121212;
   opacity: 0.8;
 }
-.contact form button {
+
+/* CSS for button */
+.contact form button[type="submit"]{
   font-weight: 700;
   color: #000;
   background-color: #fff;
   padding: 14px 48px;
+  border-radius: 20px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.contact form button span {
-  z-index: 1;
-  position: relative;
+
+/* Hover effect */
+.contact form button[type="submit"]::before {
+  color: #ffffff;
+  background-color: #000; /* Change background color on hover */
+  border-radius: 20px;
 }
-.contact form button:hover {
-  color: #fff;
+
+/* Adjust padding for proper alignment of the message */
+.contact form .status-message {
+  padding-top: 10px; /* Add padding to the top */
 }
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
+
+/* Style the success and error messages */
+.contact form .status-message.success {
+  color: #4CAF50; /* Green color for success message */
 }
-.contact form button:hover::before {
-  width: 100%;
+
+.contact form .status-message.error {
+  color: #F44336; /* Red color for error message */
 }
 
 /************ Footer Css ************/
