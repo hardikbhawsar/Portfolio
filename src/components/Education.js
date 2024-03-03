@@ -26,7 +26,6 @@ const Education = () => {
               <p className="experience-company">Master of Science,Computer Science</p>
               <p className="experience-dates">August 2022 - May 2024</p>
               <p className="education-details">GPA: 3.71/4</p>
-
             </div>
           </Col>
         </Row>
