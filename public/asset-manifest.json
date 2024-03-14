@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e98a45e1.css",
-    "main.js": "/static/js/main.0f954952.js",
+    "main.js": "/static/js/main.13f36789.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/traffic.png": "/static/media/traffic.2404a53a24d86c9cf3d5.png",
     "static/media/movie.png": "/static/media/movie.38a97d409a352cd81272.png",
@@ -11,12 +11,12 @@
     "static/media/flask.png": "/static/media/flask.2fec714fc57bfa6b48ba.png",
     "static/media/twitter1.png": "/static/media/twitter1.c192eb3040dd63e6bbe0.png",
     "static/media/digit.png": "/static/media/digit.1c4197a8c40c283a7cbb.png",
+    "static/media/IMG_3472.png": "/static/media/IMG_3472.8f92bae3e4a11943e374.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/California_State_University,_Fullerton_seal.png": "/static/media/California_State_University,_Fullerton_seal.2fc813cf673a2a4367bc.png",
     "static/media/sinhgad.png": "/static/media/sinhgad.9ce2f44b94fdc1aee2b6.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
-    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/IIT_white.png": "/static/media/IIT_white.b2f3ea1b7936854dba90.png",
     "static/media/Persistent_Logo_Vertical_Orange_Silver.png": "/static/media/Persistent_Logo_Vertical_Orange_Silver.26116cbd7aa08c0e5343.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -38,11 +38,11 @@
     "static/media/arrow2.svg": "/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.e98a45e1.css.map": "/static/css/main.e98a45e1.css.map",
-    "main.0f954952.js.map": "/static/js/main.0f954952.js.map",
+    "main.13f36789.js.map": "/static/js/main.13f36789.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e98a45e1.css",
-    "static/js/main.0f954952.js"
+    "static/js/main.13f36789.js"
   ]
 }
