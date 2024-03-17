@@ -16,7 +16,7 @@ export const Banner = () => {
   const period = 1000;
   
   const handleClick = () => {
-    window.open('https://drive.google.com/file/d/1IYxzt9sV_-LMnVENJajctSwoTASGsOaK/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1EOv9B5HSX7bI6Z4oDE_EggyH5j2vLrNK/view?usp=sharing', '_blank');
   }
 
   useEffect(() => {
